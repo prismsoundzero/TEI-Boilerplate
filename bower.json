@@ -1,0 +1,13 @@
+{
+  "name": "TEI-Boilerplate",
+  "version": "1.0.3-SNAPSHOT",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "jquery-ui": "1.11.4",
+    "jquery": "2.1.4",
+    "blockUI": "malsup/blockUI#2.70",
+    "jquery.scrollTo": "~2.1.1"
+  }
+}

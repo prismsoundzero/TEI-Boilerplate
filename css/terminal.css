@@ -1,6 +1,6 @@
-@import url('http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* imports */
 /* @import url("shell.css"); */
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* namespaces */
 /* @namespace "http://www.tei-c.org/ns/1.0"; */
 /* @namespace with prefix, as below, throws and error in less. */
@@ -17,7 +17,6 @@
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -44,6 +43,7 @@
 /* teibp classes */
 .-teibp-thumbnail {
   max-height: 60px;
+  cursor: pointer;
 }
 .-teibp-pb {
   display: block;
@@ -79,7 +79,6 @@
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
   border: 1px dotted #444444;
 }
 /* Choice elements */
@@ -380,7 +379,6 @@ cell {
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
   border: 1px dotted #444444;
   width: 100%;
 }
@@ -578,7 +576,6 @@ g {
 }
 gap {
   /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
-
 }
 gb {
   /* Empty Rule Set */
@@ -627,7 +624,6 @@ gramGrp {
 }
 graph {
   /* Empty for now */
-
 }
 graphic {
   display: none;
@@ -689,7 +685,6 @@ figure > head {
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -714,7 +709,6 @@ heraldry {
 }
 hi {
   /* GLS: do we want to bold this or change the background color? */
-
 }
 history {
   /* Empty Rule Set */
@@ -1038,7 +1032,6 @@ note {
   border: 1px solid #444444;
   background: #252525;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -1048,7 +1041,6 @@ note {
 }
 notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */
-
   display: none;
 }
 num {
@@ -1479,7 +1471,6 @@ signed {
   display: block;
   margin-top: 2em;
   /*should make name a block when contained within  */
-
 }
 soCalled {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -1519,9 +1510,7 @@ space:before {
 }
 TEI span {
   /* jawalsh: why were we hiding this? */
-
   /* .hide; */
-
 }
 TEI egXML span {
   display: inline;
@@ -1550,7 +1539,6 @@ sponsor {
   margin-top: 0;
   margin-bottom: 0;
   /* Block element, maybe labeled  */
-
 }
 sponsor:before {
   font-weight: bold;
@@ -1653,7 +1641,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   margin-top: 2em;
   margin-bottom: 2em;
   border-bottom: 1px solid #999;
@@ -1665,7 +1652,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   line-height: 1.5;
 }
 textClass {
@@ -1775,9 +1761,6 @@ w {
 watermark {
   /* Empty Rule Set */
 }
-when {
-  /* Empty Rule Set */
-}
 width {
   /* Empty Rule Set */
 }
@@ -1854,10 +1837,6 @@ a:hover {
   border: 1px solid #444444;
   background: #252525;
   font-family: Arvo, Verdana, sans-serif;
-  text-align: justify;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   width: 12em;
 }
 #teibpToolbox h1 {

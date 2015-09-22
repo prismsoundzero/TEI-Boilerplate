@@ -1,6 +1,6 @@
-@import url('http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* imports */
 /* @import url("shell.css"); */
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Gentium+Book+Basic:400,400italic,700,700italic');
 /* namespaces */
 /* @namespace "http://www.tei-c.org/ns/1.0"; */
 /* @namespace with prefix, as below, throws and error in less. */
@@ -14,10 +14,9 @@
   border-radius: 15px;
   width: 325px;
   position: relative;
-  border: 1px solid #aaaaaa;
-  background: #fafafa;
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -44,6 +43,7 @@
 /* teibp classes */
 .-teibp-thumbnail {
   max-height: 60px;
+  cursor: pointer;
 }
 .-teibp-pb {
   display: block;
@@ -70,8 +70,8 @@
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #ebebeb;
-  color: #292929;
+  background-color: #f8f8f8;
+  color: #333333;
   width: 33em;
 }
 .table-border {
@@ -79,8 +79,7 @@
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
-  border: 1px dotted #aaaaaa;
+  border: 1px dotted #bbbbbb;
 }
 /* Choice elements */
 choice abbr + expan:before,
@@ -380,8 +379,7 @@ cell {
 border-left: 2px solid @border-color;
 border-top:2px solid @border-color;
 */
-
-  border: 1px dotted #aaaaaa;
+  border: 1px dotted #bbbbbb;
   width: 100%;
 }
 /* for cell or row with @role = label */
@@ -546,7 +544,7 @@ egXML {
   font-size: 80%;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 1px solid #aaaaaa;
+  border-left: 1px solid #bbbbbb;
   margin-top: .75em;
   margin-bottom: .75em;
   padding-top: .75em;
@@ -578,7 +576,6 @@ g {
 }
 gap {
   /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
-
 }
 gb {
   /* Empty Rule Set */
@@ -627,7 +624,6 @@ gramGrp {
 }
 graph {
   /* Empty for now */
-
 }
 graphic {
   display: none;
@@ -686,10 +682,9 @@ figure > head {
   border-radius: 15px;
   width: 325px;
   position: relative;
-  border: 1px solid #aaaaaa;
-  background: #fafafa;
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -714,7 +709,6 @@ heraldry {
 }
 hi {
   /* GLS: do we want to bold this or change the background color? */
-
 }
 history {
   /* Empty Rule Set */
@@ -1035,10 +1029,9 @@ note {
   border-radius: 15px;
   width: 325px;
   position: relative;
-  border: 1px solid #aaaaaa;
-  background: #fafafa;
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
   /* reset text-indent for note with <l> ancestors. */
-
   text-indent: 0;
   font-size: 85%;
   text-align: justify;
@@ -1048,7 +1041,6 @@ note {
 }
 notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */
-
   display: none;
 }
 num {
@@ -1479,7 +1471,6 @@ signed {
   display: block;
   margin-top: 2em;
   /*should make name a block when contained within  */
-
 }
 soCalled {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -1519,9 +1510,7 @@ space:before {
 }
 TEI span {
   /* jawalsh: why were we hiding this? */
-
   /* .hide; */
-
 }
 TEI egXML span {
   display: inline;
@@ -1550,7 +1539,6 @@ sponsor {
   margin-top: 0;
   margin-bottom: 0;
   /* Block element, maybe labeled  */
-
 }
 sponsor:before {
   font-weight: bold;
@@ -1653,7 +1641,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   margin-top: 2em;
   margin-bottom: 2em;
   border-bottom: 1px solid #999;
@@ -1665,7 +1652,6 @@ border-radius: 15px;
 border: 1px solid black;
 background:white;
 */
-
   line-height: 1.5;
 }
 textClass {
@@ -1775,9 +1761,6 @@ w {
 watermark {
   /* Empty Rule Set */
 }
-when {
-  /* Empty Rule Set */
-}
 width {
   /* Empty Rule Set */
 }
@@ -1820,27 +1803,27 @@ html {
   padding: 2.5em;
   font-family: "Gentium Book Basic", Cochin, Georgia, Serif;
   font-size: 14pt;
-  background-color: #ebebeb;
-  color: #292929;
+  background-color: #f8f8f8;
+  color: #333333;
   width: 33em;
 }
 img {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #bbbbbb;
 }
 footer {
   margin-top: 1em;
-  border-top: 1px solid #292929;
+  border-top: 1px solid #333333;
   padding-top: .5em;
   font-size: 12pt;
 }
 a:link,
 a:visited,
 a:active {
-  color: #5f0000;
+  color: #268bd2;
   text-decoration: none;
 }
 a:hover {
-  color: #5f0000;
+  color: #268bd2;
   text-decoration: underline;
 }
 #teibpToolbox {
@@ -1851,13 +1834,9 @@ a:hover {
   margin-right: 1em;
   padding: 1em;
   border-radius: 15px;
-  border: 1px solid #aaaaaa;
-  background: #fafafa;
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
   font-family: Arvo, Verdana, sans-serif;
-  text-align: justify;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   width: 12em;
 }
 #teibpToolbox h1 {
@@ -1865,7 +1844,7 @@ a:hover {
   font-size: 115%;
   margin-top: 0;
   margin-bottom: .5em;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #bbbbbb;
 }
 /* xml-serialization */
 .eg-element {
@@ -1883,7 +1862,7 @@ a:hover {
   color: #993300;
 }
 .eg-text {
-  color: #292929;
+  color: #333333;
 }
 /* loading animation */
 #loading {
@@ -1897,7 +1876,7 @@ a:hover {
 }
 /* facsViewer */
 #resizable {
-  background-color: #ebebeb;
+  background-color: #f8f8f8;
   width: 550px;
   height: 700px;
   overflow: hidden;
